@@ -1,0 +1,224 @@
+a{
+    color: #0779e4;
+}
+a:hover
+{
+    color: #0779e4;
+}
+.btn-custom
+{
+    color: white;
+    background-color: #007bff;
+    border-radius: 20px;
+    padding:13px 24px 13px 24px;
+}
+.btn-custom:hover
+{
+    color:white;
+    background-color: black;
+}
+.book-link
+{
+    color:white;
+}
+.book-link:hover
+{
+    font-weight: 500;
+    color: white;
+}
+.fab
+{
+    margin-bottom: 5px;
+}
+.accordion {
+    background-color: white;
+    color: #0779e4;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 0px solid white;
+    outline: none;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px 0 rgba(0,0, 0, 0.1);
+    transition: 0.4s;
+    font: 20px Lato, sans-serif;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active1, .accordion:hover {
+    background-color: #0779e4;
+    color: white;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px 0 rgba(0,0, 0, 0.3);
+}
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 14px;
+    float: right;
+    margin-left: 5px;
+}
+
+.active1:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.element
+{
+    display: block;
+    padding: 10px 30px 10px 30px;
+    background: #f8f9fa;
+    color: #0779e4;
+    border-radius: 4px;
+    text-align: center;
+    margin:10px;
+    float: left;
+    height: auto;
+    width: 150px;
+}
+.element h3
+{
+    margin-top:10px;
+    font-size: 17px;
+    text-align: center;
+    color: #ccc;
+    -webkit-transition: .3s color ease;
+    -o-transition: .3s color ease;
+    transition: .3s color ease;
+}
+.element:hover h3 {
+    color: #000; }
+.element:hover
+{
+    background: #fff;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px 0 rgba(0,0, 0, 0.6);}
+    .course:hover h3 {
+      color: #000;
+}
+.download
+{
+    position: relative;
+    display: block;
+    color: rgb(252, 246, 246);
+    font-size: 10px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 5px 0px;
+    border: 1px solid #0779e4;
+    padding: 10px 85px 10px 10px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    background-color: #abd4fa;
+}
+.download:hover
+{
+    color: white;
+    background-color: #0779e4;
+    border: 1px solid #007bff;
+}
+.download::before
+{
+    background: #007bff;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+.download:hover::before
+{
+    width:100%
+}
+.btn::before{
+    width: 0%;
+    height: 100%;
+}
+.btn:hover::before{
+    width: 100%;
+}
+@media  only screen and (max-width:765px) {
+    .row{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:991px) {
+ 
+    #features .content-left .text,
+    #applications .content-left .text ,
+    #features .content-right .text,
+    #applications .content-right .text{
+        text-align: center!important
+    }
+    .img-about
+    {
+        display: block;
+    }
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link span.scrolled{
+    position: relative;
+    display: block;
+    padding-bottom: 2px;
+    color: white;
+}
+.position
+{
+    text-transform: capitalize;
+}
+.faimg {
+    width: 65%;
+    height: auto;
+} 
+
+.company {
+    display: flex;
+    align-items: center;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+@media (max-width: 991.98px) {
+    .ftco-partner .partner img {
+        height: 11vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .ftco-partner .partner img {
+        height: 8vh;
+    }
+}
+@media (max-width: 480px) {
+    .ftco-partner .partner img {
+        height: 6vh;
+    }
+}
+@media (max-width: 400px) {
+    .ftco-partner .partner img {
+        height: 4.5vh;
+    }
+}
+@media (max-width: 320px) {
+    .ftco-partner .partner img {
+        height: 4vh;
+    }
+}
+@media (max-width: 280px) {
+    .ftco-partner .partner img {
+        height: 3vh;
+    }
+}

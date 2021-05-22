@@ -1,0 +1,224 @@
+html
+{
+    scroll-behavior: smooth;
+}
+.navbar.scrolled {
+    background-color: black;
+    box-shadow: 0 15px 30px 0 whitesmoke;
+}
+.icon-menu:before {
+    color: white;
+}
+.icon-menu:before {
+    color: white;
+}
+
+.overlape {
+    margin-top: -20px;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.9); 
+}
+.text-center h2
+{
+   color: white;
+   font-weight: 400; 
+}
+#luck{
+    font-size: 20px;
+    font-weight: 500px;
+    color: black;
+}
+h2 strong
+{
+    font-weight: 400;
+    color: rgb(220, 235, 16);
+}
+.cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.9)), url(images/page-pictures/cta-img.jpg) fixed center center;
+    background-size: cover;
+    padding: 30px 0;
+    margin: 50px 0px 20px 0px;
+    width: 100%;
+    color:white;
+}
+.cta .cta-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.cta-btn:hover
+{
+    background-color:black
+}
+.itms
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.accordion {
+    background-color: white;
+    color: #0779e4;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid white;
+    outline: none;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px 0 rgba(0,0, 0, 0.1);
+    transition: 0.4s;
+    font: 20px Lato, sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active1, .accordion:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px 0 rgba(0,0, 0, 0.3);
+}
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 14px;
+    float: right;
+    margin-left: 5px;
+}
+
+.active1:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.element
+{
+    display: block;
+    padding: 10px 30px 10px 30px;
+    background: #f8f9fa;
+    color: #0779e4;
+    border-radius: 4px;
+    text-align: center;
+    margin:10px;
+    float: left;
+    height: auto;
+    width: 150px;
+}
+.element h3
+{
+    margin-top:10px;
+    font-size: 17px;
+    text-align: center;
+    color: #ccc;
+    -webkit-transition: .3s color ease;
+    -o-transition: .3s color ease;
+    transition: .3s color ease;
+}
+.element:hover h3 {
+    color: #000; }
+.element:hover
+{
+    background: #fff;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px 0 rgba(0,0, 0, 0.6);}
+    .course:hover h3 {
+      color: #000;
+}
+.site-footer
+{
+    width: 100%;
+    background-color: #b6d7f5;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+}
+.site-footer .container
+{
+    padding: 0%;
+    /* color: white; */
+}
+#text
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+#Services
+{
+    margin-top: 50px;
+}
+.service-1
+{
+    border-bottom: 7px solid #060007;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px 0 rgb(0, 0, 0);
+}
+.con
+{
+    margin-bottom: 10px;
+}
+.social-item
+{
+    font-size: 24px;
+    /* margin-left: 130px; */
+    border-radius:40%;
+    margin: 0rem !important;
+    color: white;
+    background-color: transparent;
+}
+.social-item:hover{
+    background-color:rgba(0, 0, 0, 0.438);
+}
+.sharer{
+    font-size: 22px;
+    height: 35px;
+    width: 35px;
+}
+.site-navbar
+{
+    position: fixed;
+    padding: 0px;
+}
+.site-footer .container
+{
+    padding:0px 20px 0px 20px;
+}
+.map
+{
+    width: 100%;
+}
+@media  only screen and (max-width:765px) {
+    .row{
+        justify-content: center;
+    }
+}
+ /*--------------------------------------------------------------------------------*/
+ .swal2-image {
+    height: 200px;
+    width: 250px;
+  }
+
+  #swal2-title {
+    color: green;
+    font-size: 40px;
+  }
+
+  #swal2-content {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  /*--------------------------------------------------------------------------------*/
